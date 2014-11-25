@@ -1,0 +1,27 @@
+/* Functions to make working with ie shit slightly less of a headache */
+
+
+// Create ie-only styles on the fly and inline
+ie()
+  if ie
+    {block}
+
+// Create ie transparency filters
+ie-trans(colour, alpha = 1)
+  ms-colour = argb(colour, alpha)
+  background rgb(colour)
+  background rgba(colour, alpha)
+  .lt-ie8 &
+    zoom 1
+  .lt-ie9 &
+    background transparent
+    filter s('progid:DXImageTransform.Microsoft.gradient(startcolourstr=%s,endcolourstr=%s)', ms-colour, ms-colour)
+    &:nth-child(n)
+      filter none
+
+hex(decimal)
+   hex-value = ('0') ('1') ('2') ('3') ('4') ('5') ('6') ('7') ('8') ('9') ('A') ('B') ('C') ('D') ('E') ('F')
+   unquote(hex-value[floor(decimal / 16)] + hex-value[floor(decimal % 16)])
+
+argb(colour, alpha = 1)
+  unquote('#') + hex(alpha * 255) + hex(red(colour)) + hex(green(colour)) + hex(blue(colour))

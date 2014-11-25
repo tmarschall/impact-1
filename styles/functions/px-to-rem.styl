@@ -1,0 +1,9 @@
+/* Convert px to rem */
+
+rem(value)
+    if value == 'inherit' || value == 'auto' || value == 'none' || value == 'cover' || value == 'contain' || value == 'smaller' || value == 0 || value == null
+        value
+    else if unit(value) == 'px'
+        unit(value/16, 'rem')
+    else
+        unit(value, unit(value))

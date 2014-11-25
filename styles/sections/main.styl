@@ -1,0 +1,269 @@
+.heading
+  text-align center
+  font-size scale6
+  padding 20px 5%
+  margin 0
+  color offWhite
+  background navy
+  +below(mobile)
+    font-size scale4
+
+.input
+  col(0.382, gutter: 10)
+  margin-top 120px
+  +between(mobile,tablet)
+    col(1/3, gutter: 7)
+  +below(mobile)
+    stack()
+    margin-top 80px
+  .money
+    text-align center
+    fieldset
+      width 70%
+      display inline-block
+      margin-right -26px // Currency symbol offset
+      +between(mobile, tablet)
+        margin-right -21px
+      #amount
+        border 0
+        width 100%
+        background offWhite
+        border-radius 10px
+        padding 4px 8px 8px 8px
+        font-size scale6
+        color darkGrey
+        font-weight 300
+        +between(mobile, tablet)
+          font-size scale5
+      &:before
+        float left
+        display inline-block
+        content "$"
+        font-size scale7
+        margin-left -52px // Currency symbol offset
+        font-weight 300
+        line-height 1.2
+        color darkGrey
+        +between(mobile, tablet)
+          font-size scale6
+          margin-left -42px
+
+#charities
+  margin-top 40px
+  .charity
+    col(1/2, cycle: 2, gutter: 7)
+    margin 3.5% 0
+    overflow hidden
+    background lightGrey
+    +between(mobile, tablet)
+      stack()
+    .charity-wrap
+      position relative
+      width 100%
+      height 100%
+      display block
+      cursor pointer
+      &:hover
+        img
+          filter none
+          opacity 1
+      img
+        width 100%
+        height 100%
+        filter grayscale(100%)
+        opacity 0.8
+        transition (all 0.3s ease-in-out)
+      .charity-overlay
+        @extend $layer1
+        opacity 0
+        position absolute
+        top 0
+        bottom 0
+        left 0
+        right 0
+        padding 0 10%
+        background navy
+        color white
+        display block
+        vertical-align middle
+        text-align center
+        span
+          display inline-block
+          font-weight 300
+          color white
+      input[type="radio"]
+        display none
+
+.charities-mobile
+  @extend $layer3
+  position absolute
+  top 2.5%
+  left 5%
+  right 5%
+  background white
+  border-radius 3px
+  padding 3.5% 6%
+  .charity-wrap
+    img
+      filter none !important
+      opacity 1 !important
+
+.charities-mobile-button
+  margin-top 80px
+  cursor pointer
+  .selected-charity
+    span(1/2)
+    background medGrey
+    height 100%
+    img
+      height 100%
+      width 100%
+  .choose-charity
+    span(1/2)
+    background lightGrey
+    height 100%
+    span
+      color darkGrey
+      font-size scale3
+      font-weight 300
+      width 100%
+      text-align center
+      display block
+  +above(mobile)
+    display none
+
+.charities-mobile-overlay
+  @extend $layer2
+  position fixed
+  top 0px
+  left 0px
+  height 100%
+  width 100%
+  background darkBlack
+  display none
+  span
+    float right
+    margin 2.5% 5% 0 0
+    color white
+    font-size scale1
+    cursor pointer
+
+
+.output
+  col(0.618, gutter: 10)
+  margin-top 160px
+  +below(tablet)
+    col(2/3, gutter: 7)
+  +below(mobile)
+    stack()
+    margin-top 120px
+  .result
+    display inline-block
+    margin-bottom 50px
+    width 100%
+    .icon
+      col(0.382)
+      +below(mobile)
+        stack()
+      img
+        width 100%
+    .result-details
+      col(0.618)
+      +below(mobile)
+        stack()
+        padding-top 12px
+      .number
+        float left
+        span
+          line-height 1
+      .thing
+        float right
+        padding-top 2%
+        span
+          line-height 1
+          font-weight 300
+      .info
+        stack()
+        display block
+        padding 4px 40px 0 0
+        margin 0 0 18px 8px
+        line-height 1.4
+        color darkGrey
+        +below(mobile)
+          text-align center
+          padding 16px 0 0 0
+
+  .result-green
+    .number, .thing
+      color green
+  .result-red
+    .number, .thing
+      color red
+  .result-purple
+    .number, .thing
+      color purple
+
+.output-content
+  padding 0 10px
+  +below(mobile)
+    padding 0
+
+#donate
+  @extend $button
+  background red
+  font-weight 300
+  width 80%
+  margin 30px auto 130px auto
+  padding 18px
+  &:hover
+    background lighten(red, 15%)
+  +below(mobile)
+    width 90% // Hack - bug somewhere
+    font-weight 400
+    margin 0 auto 100px auto
+
+#organisation, #numbers
+  margin-top 70px
+  h1
+    margin 0
+    padding 0
+    line-height 1
+    font-size scale4
+    +below(mobile)
+      font-size scale3
+  p
+    padding-left 6px
+
+
+#recommendation
+  max-width 500px
+  margin 70px auto 50px auto
+  color darkGrey
+  p
+    text-align center
+    font-style italic
+
+#learnmore
+  @extend #donate
+  background blue
+  &:hover
+    background lighten(blue, 15%)
+
+
+.disclaimer
+  background lightGrey
+  margin-top 120px
+  border-top 5px solid medGrey
+  article
+    margin 50px 0
+  h1
+    font-size scale3
+    line-height 1.3
+    margin 0
+    padding 0
+    color darkGrey
+  a
+    color blue
+
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "Site Boilerplate",
+  "version": "1.0",
+  "authors": [
+    "Sean King <sean@seanking.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "hoverintent": "*",
+    "html5shiv": "~3.7.2",
+    "respond": "~1.4.2",
+    "velocity": "~1.1.0",
+    "skrollr": "~0.6.27",
+    "FitText.js": "~1.2.0",
+    "bigtext": "0.1.6"
+  },
+  "devDependencies": {}
+}

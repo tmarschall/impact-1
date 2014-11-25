@@ -1,0 +1,47 @@
+/* Common values abstracted to encourage consistency (use same variables across site) */
+
+
+// Typographic scale
+ms-ratio = golden
+base1 = 16px
+base2 = 20px
+
+small = rem(14px)
+scale0 = rem(ms(0, base1))
+scale1 = rem(ms(0, base2))
+scale2 = rem(ms(1, base1))
+scale3 = rem(ms(1, base2))
+scale4 = rem(ms(2, base1))
+scale5 = rem(ms(2, base2))
+scale6 = rem(ms(3, base1))
+scale7 = rem(ms(3, base2))
+
+// Borders
+radius = 3px
+
+// Transitions
+transition = all 0.2s ease-in-out
+
+// Layers
+$layer0
+  z-index: 0
+$layer1
+  z-index: 5
+$layer2
+  z-index: 10
+$layer3
+  z-index: 15
+
+
+// Main Breakpoints
+tablet = 915px
+.tablet
+  display none
+  +below(tablet)
+    display block
+
+mobile = 625px
+.mobile
+  display none
+  +below(mobile)
+    display block
