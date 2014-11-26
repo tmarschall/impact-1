@@ -132,7 +132,7 @@
         </div>
     </section>
 
-       <section class="result result-green" id="result1" >
+       <section class="result result-green" id="result2" >
         <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
         <div class="result-details">
           <div class="number"><span></span></div>
@@ -141,7 +141,7 @@
         </div>
     </section>
 
-       <section class="result result-green" id="result1" >
+       <section class="result result-green" id="result3" >
         <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
         <div class="result-details">
           <div class="number"><span></span></div>
@@ -150,7 +150,7 @@
         </div>
     </section>
 
-        <section class="result result-green" id="result1" >
+        <section class="result result-green" id="result4" >
         <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
         <div class="result-details">
           <div class="number"><span></span></div>
@@ -160,11 +160,11 @@
     </section>
 
     <div class="output-content">
-      <a href="" id="donate">Donate to GiveDirectly Today!</a>
+      <a href="" id="donate">Donate to <span>GiveDirectly</span> Today!</a>
 
       <section id="organisation">
         <h1>The Organization</h1>
-        <p>GiveDirectly provides unconditional cash transfers via cell phone to some of the poorest families in Kenya. Households are selected using criteria such as proximity to public services and quality of housing. GiveDirectly then transfers $1,000 over one to two years to the chosen households using a Kenyan mobile payment system, and the recipients are free to use the money as they wish.</p>
+        <p>GiveoDirectly provides unconditional cash transfers via cell phone to some of the poorest families in Kenya. Households are selected using criteria such as proximity to public services and quality of housing. GiveDirectly then transfers $1,000 over one to two years to the chosen households using a Kenyan mobile payment system, and the recipients are free to use the money as they wish.</p>
       </section>
 
       <section id="numbers">
@@ -176,7 +176,7 @@
         <p>GiveDirectly is one of The Life You Can Save’s Top-Rated charities. But don’t take our word for it. GiveWell, widely considered the most rigorous charity evaluator in the world, recommends only three top charities of which GiveDirectly is one.</p>
       </section>
 
-      <a href="" id="learnmore">Learn More About GiveDirectly</a>
+      <a href="" id="learnmore">Learn More About <span>GiveDirectly</span></a>
     </div>
   </article>
 </div>
