@@ -163,7 +163,7 @@
       <a href="" id="donate">Donate to <span>GiveDirectly</span> Today!</a>
 
       <section id="organisation">
-        <h1>The Organization</h1>g
+        <h1>The Organization</h1>
         <p>GiveDirectly provides unconditional cash transfers via cell phone to some of the poorest families in Kenya. Households are selected using criteria such as proximity to public services and quality of housing. GiveDirectly then transfers $1,000 over one to two years to the chosen households using a Kenyan mobile payment system, and the recipients are free to use the money as they wish.</p>
       </section>
 

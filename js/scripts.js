@@ -52,11 +52,12 @@ $(function() {
         $('.charity.selected').removeClass('selected').find('.charity-overlay').velocity({"opacity": "0"}, 300);
         $(this).closest('label').addClass('selected').find('.charity-overlay').velocity({"opacity": "1"}, 300);
 
-        // Mobile
-        setTimeout(function() {
-            closeModal();
-            showSelected();
-        }, 300);
+        // if($('.mobile').css('display') == 'block'){
+            setTimeout(function() {
+                closeModal();
+                showSelected();
+            }, 300);
+        // }
     });
 
     // Move grid to hidden modal on mobile
@@ -108,7 +109,6 @@ $(function() {
         $('.selected-charity').empty();
         $('.selected img').clone().appendTo('.selected-charity');
     }
-
 
 
 
@@ -218,8 +218,8 @@ $(function() {
     };
 
 
-
    //------------  TRIGGERS  -------------//
+
 
    $(window).load(function(){
         // Fade in output (prevent FOUC)
@@ -227,6 +227,11 @@ $(function() {
 
         // Hold off grid scale until images loaded
         scaleGrid();
+
+        // Call contentChange to trigger initial formatting
+        $('#sci').trigger("click");
+
+        $(document).trigger("contentChange");
    });
 
     // Reformat content on content change
@@ -235,7 +240,6 @@ $(function() {
         buttonText();
         alignResult();
    });
-
 
    // Re-call functions that change on resize
    $(window).resize(function(){

@@ -3,8 +3,7 @@
 	var jqXHR = $.getJSON('/impact/json/charities.json', function( data ) {
     	charities = data.charities;
 
-      $('#sci').prop('checked', true);
-  		$('#amount').val("100");
+    	$('#amount').val("100");
   		var charity = getCharityById(charities, 'sci');
 		updateCharity(charity);
   		updateImpacts(charity, 100);
