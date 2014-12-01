@@ -1,0 +1,308 @@
+{
+  "charities": [
+    {
+      "id": "amf",
+      "name": "Against Malaria Foundation",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 3,
+          "action": "Provide",
+          "item": "long-lasting, insecticide-treated bednets to those living in  malaria-stricken areas",
+          "exclusive": false
+        },
+        {
+          "price": 1.67,
+          "action": "Protect an average of",
+          "item": "people from malaria for 3-4 years",
+          "exclusive": false
+        },
+        {
+          "price": 60,
+          "action": "Save",
+          "item": "lives according to the Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute",
+          "exclusive": false
+        },
+        {
+          "price": 3400,
+          "action": "Save",
+          "item": "lives according to the more conservative estimate provided by GiveWell",
+          "exclusive": false
+        }
+      ],
+      "organization": "The Against Malaria Foundation (AMF) provides long-lasting insecticide-treated bed nets as protection.  Malaria, transmitted via infected mosquitoes, kills over a million people every year and affects half a billion; seventy percent of the deaths are those of children under five.  It is the largest killer of pregnant women, one of the leading causes of child deaths in Africa and a major obstacle to social and economic development in sub-Saharan Africa, where 90% of malaria deaths occur.",
+      "numbers": "Each long-lasting insecticide-treated bed net costs roughly $3, lasts for around 3-4 years, and protects 2 people from malaria on average.  The Against Malaria Foundation and Dr. Christen Lengeler of the Swiss Tropical Institute estimate that one life is saved for every 160 bednet years, or every 20 bednets purchased (~$60).  Charity research organization GiveWell has made the much more conservative estimate that $3400 must be donated to the Against Malaria Foundation before a donor can be sure that a life has been saved by the donation.  Public donations are used exclusively to fund bednets, so the Against Malaria Foundation has an effective overhead rate of 0% (non-net costs are fundraised for separately, and discussed here).",
+      "recommendation": "The researchers at Giving What We Can rank the Against Malaria Foundation</a> as one of only four charities to earn their top recommendation, based on their outstanding cost-effectiveness."
+    },
+    {
+      "id": "evidence-action",
+      "name": "Evidence Action",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 0.06,
+          "action": "Protect",
+          "item": "students from neglected tropical diseases, reducing absenteeism by 25%, increasing future wages by 23% and increasing adult work hours by 12%.  Higher scores on tests of literacy and numeracy have been found in deworming treatment areas 7 to 8 years after treatment",
+          "exclusive": true
+        },
+        {
+          "price": 0.90,
+          "action": "Provide",
+          "item": "community members with safe water for an entire year",
+          "exclusive": true
+        }
+      ],
+      "organization": "Evidence Action runs sustainable and cost-effective programs which have been tested and incubated at Innovations for Poverty Action, a poverty intervention research organization.  Evidence Action currently oversees two highly successful programs, Dispensers for Safe Water and Deworm the World. Donors can select which project their donation goes to, but it is preferred that donations remain untagged, so Evidence Action can use the funding where it is most needed at the time.",
+      "numbers": "In 2015, it will cost around $0.90 per person per year to access a chlorine dispenser provided by Dispensers for Safe Water, but the price will drop to $0.50 per person per year when the program is operating at scale by 2018, serving 25 million people.  Deworm the World protects students from neglected tropical diseases for an annual cost of $0.06 per student.  A randomized trial in Kenya found that deworming reduced student absenteeism by 25%, increased future wage earnings by 23% and increased adult work hours by 12%.  A recent study from the Harvard School of Public Health found that students in deworming treatment areas performed better on literacy and numeracy tests as compared with other students 7-8 years after the end of their deworming treatment.  Evidence Action has an overhead rate of roughly 15% which is included in all statements regarding cost (so there is no need to subtract overhead costs before calculating the cost per person served).  Keep in mind that the overhead ratio is not a direct measurement of charity effectiveness.",
+      "recommendation": "GiveWell, widely considered the most rigorous charity evaluator in the world, recommends only three top charities of which Deworm the World is one.  Similarly, the researchers at Giving What We Can rank Deworm the World as one of only four charities to earn their top recommendation based on their outstanding cost-effectiveness."
+    },
+    {
+      "index": 2,
+      "id": "fistula-foundation",
+      "name": "Fistula Foundation",
+      "overhead": 0.153,
+      "pricePoints": [
+        {
+          "price": 25,
+          "action": "Help transport",
+          "item": "women to and from the hospital (on average, varying by country)",
+          "exclusive": true
+        },
+        {
+          "price": 50,
+          "action": "Help provide",
+          "item": "anesthetists for women’s surgeries (on average, varying by country)",
+          "exclusive": true
+        },
+        {
+          "price": 85,
+          "action": "Help provide",
+          "item": "patients with nursing care (on average, varying by country)",
+          "exclusive": true
+        },
+        {
+          "price": 450,
+          "action": "Help complete",
+          "item": "women’s fistula repair surgeries, funded in entirety (on average, varying by country)",
+          "exclusive": true
+        }
+      ],
+      "organization": "The Fistula Foundation provides grants to local partners for fistula care, prevention, and educational programs. Obstetric fistulas are holes that form during childbirth between the birth passage and an internal organ such as the bladder or rectum. While no longer a problem for the developed world, obstetric fistulas affect hundreds of thousands of women in developing countries, where maternal healthcare is poor and the pelvises of the mothers are often too small for delivery because of malnourishment or young marriages. If a fistula develops, the baby usually dies. If the mother survives, she will most likely be shunned by her family and community because of her inability to bear more children and because of the smell caused by her uncontrollable leakage of bodily waste.",
+      "numbers": "Estimates for the cost of restorative surgery and rehabilitation for one woman range from $300 to $1,163, with roughly $450 being the average cost.  As described on the Fistula Foundation website, &quot;The approximate average cost per patient is $450 US dollars. This includes surgery, postoperative care and physical rehabilitation. This price estimate is based on average costs reported to Fistula Foundation by our grantees across 25 countries in sub-Saharan Africa and Southeast Asia. Costs and hospitalization can, however, be far greater for more complicated surgeries such as treating dual vaginal and rectal fistulas.&quot;  The Fistula Foundation’s overhead is 15.3% (keep in mind that overhead ratio is not a direct measurement of charity effectiveness).",
+      "recommendation": "The Fistula Foundation has received numerous accolades, including receiving four out of four stars from Charity Navigator for eight years&mdash;something only 1% of charities rated by Charity Navigator have achieved.  The Fistula Foundation is also a Better Business Bureau accredited charity, meeting all twenty Standards for Charitable Accountability."
+    },
+    {
+      "index": 3,
+      "id": "fred-hollows",
+      "name": "Fred Hollows Foundation",
+      "overhead": 0.245,
+      "pricePoints": [
+        {
+          "price": 25,
+          "action": "Perform",
+          "item": "cataract surgeries in some developing countries, preventing avoidable blindness",
+          "exclusive": false
+        }
+      ],
+      "organization": "Almost 300 million people worldwide are visually impaired, of which 39 million are blind; yet 80% of all visual impairments can be avoided and cured. The Fred Hollows Foundation works to help millions of people keep or regain their sight, thus giving them back control of their lives by providing adequate eye care services to the poorest of the poor.",
+      "numbers": "The Fred Hollows Foundation works in over 19 of the poorest countries in the world, including Rwanda, Palestine, Myanmar, and Bangladesh.  In 2013 alone they performed over 4.5 million eye operations, procedures and treatments; provided millions of dollars worth of medical equipment; trained over 200 surgeons and 41,000 eye health workers; and built or upgraded 48 facilities.  While the cost of cataract surgery varies by country, it can be as low as $25 in some developing countries.  The Fred Hollows Foundation’s overhead is made up of a 17.9% fundraising budget and a 6.6% operating budget (keep in mind that the overhead ratio is not a direct measurement of charity effectiveness).",
+      "recommendation": "The World Bank has identified cataract surgery as one of the most cost-effective of all public health interventions.  Fred Hollows Foundation was named the 2013 Australian Charity of the Year and was recognized by The Global Journal as one of Top 100 NGOs in the world. In 2008, they received the Givewell Charity Award for &quot;Best Practice Not-for-Profit&quot; organization."
+    },
+    {
+      "index": 4,
+      "id": "givedirectly",
+      "name": "Give Directly",
+      "overhead": 0.1,
+      "pricePoints": [
+        {
+          "price": 1,
+          "action": "Provide",
+          "item": "dollars directly to poor households in Kenya and Uganda to use as they wish, increasing recipients' assets and food security while reducing stress and depression during the following years",
+          "exclusive": false
+        },
+        {
+          "price": 1000,
+          "action": "Fully fund",
+          "item": "households over one to two years, covering an average of five family members per household",
+          "exclusive": false
+        }
+      ],
+      "organization": "GiveDirectly provides unconditional cash transfers via cell phone to some of the poorest families in Kenya. Households are selected using criteria such as proximity to public services and quality of housing. GiveDirectly then transfers $1,000 over one to two years to the chosen households using a Kenyan mobile payment system, and the recipients are free to use the money as they wish.",
+      "numbers": "Cash transfers are relatively well studied and the available research is very promising. Several studies have found that cash transfers improve child health and schooling, while savings and investment rates are typically high. GiveDirectly is committed to transparently tracking and improving their effectiveness through randomized controlled trials (the &quot;gold standard&quot; in social sciences research). Targeting the extreme poor (recipients live on $0.65 a day on average) allows GiveDirectly to dramatically affect recipients’ lives with each cash transfer.  GiveDirectly’s overhead is 10% (keep in mind that the overhead ratio is not a direct measurement of charity effectiveness).",
+      "recommendation": "GiveWell, widely considered the most rigorous charity evaluator in the world, recommends only three top charities of which GiveDirectly is one."
+    },
+    {
+      "index": 5,
+      "id": "oxfam",
+      "name": "Oxfam",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 35,
+          "action": "Provide",
+          "item": "children with school meal programs for one year",
+          "exclusive": true
+        },
+        {
+          "price": 50,
+          "action": "Provide",
+          "item": "farming households with seeds and tools",
+          "exclusive": true
+        },
+        {
+          "price": 100,
+          "action": "Build",
+          "item": "latrines to protect the health of families displaced by natural disasters",
+          "exclusive": true
+        },
+        {
+          "price": 180,
+          "action": "Build",
+          "item": "hand washing stations at rural schools to prevent the spread of disease",
+          "exclusive": true
+        },
+        {
+          "price": 400,
+          "action": "Provide",
+          "item": "months of legal support to help community leaders take on a mining company",
+          "exclusive": true
+        },
+        {
+          "price": 1500,
+          "action": "Build",
+          "item": "girls' schools",
+          "exclusive": true
+        }
+      ],
+      "organization": "Over one billion people across the world live in extreme poverty today. Living on less than $1.25 a day (PPP adjusted), they are often unable to exercise their basic human rights or access basic services such as health and education. Oxfam International is a coalition of seventeen distinct national organizations, working mostly independently, to fight the injustice of poverty. Their work focuses on long-term development programs, emergency assistance, and political advocacy. The issues they engage span active citizenship, agriculture, aid effectiveness, climate change, education, emergency response, gender justice, HIV and AIDS, health, indigenous and minority rights, natural resources, peace and security, private sector, trade and youth outreach.",
+      "numbers": "Details of Oxfam International’s expenditure can be found on their website in their most recent Annual Report, and you can see Annual Reports of the various national Oxfams on their respective websites. Oxfam International also publishes its Strategic Plan, internal governance rules and policies, compliance with required standards, voluntary codes of conduct, evaluations, and financial accounts. As further indication of Oxfam’s general transparency, Oxfam America has received the seal of the Better Business Bureau’s Wise Giving Alliance for accountability, and Oxfam GB has made the results of all of its Project Effectiveness Reviews available to the public.  According to Charity Navigator, Oxfam America’s overhead is 21.2%, made up of 7.4% administrative and 13.7% fundraising expenses (keep in mind that the overhead ratio is not a direct measurement of charity effectiveness).",
+      "recommendation": "After tackling global poverty for more than half a century, Oxfam has a wealth of experience to draw upon for present and future programs.  Oxfam International has had an extensive independent evaluation carried out of their first collaborative Strategic Plan (2001-2006). Oxfam GB has recently been leading the way to better self-evaluation within charities with its rigorous Project Effectiveness Reviews."
+    },
+    {
+      "index": 6,
+      "id": "psi",
+      "name": "Population Services International",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 17.77,
+          "action": "Provide",
+          "item": "years of healthy life, on average, through disease-prevention, maternal health, family planning and other health services provided to those in poverty around the world",
+          "exclusive": false
+        }
+      ],
+      "organization": "Population Services International (PSI) is a global health organization focused on serious challenges in the developing world such as a lack of family planning, HIV and AIDS, barriers to maternal health, and the greatest threats to children under five&mdash;malaria, diarrhea, pneumonia, and malnutrition.  PSI estimates that with the services they provided in 2012, they added over 35 million years of healthy life and provided protection against unintended pregnancy for 21 million couple years. They maximize their impact by targeting programs in malaria and child survival, HIV and AIDS, tuberculosis, family planning, and maternal health&mdash;areas that account for a disproportionate amount of the disease burden in countries where they work.",
+      "numbers": "PSI's work varies widely, ranging from interventions preventing malaria with insecticide-treated bednets to those targeting HIV, non-communicable diseases and Ebola.  While some of PSI's work can be measured through the cost per DALY averted, not all of their interventions fit neatly into this category (e.g. behavior change communications encouraging healthy habits like hand-washing).  For this reason, PSI's DALY averted measurements vary largely depending on the programs operating in each country.  PSI's cost per DALY is based on in-country costs and a share of PSI’s costs at headquarters.  To arrive at a net cost per DALY, PSI offsets costs with sales revenue (e.g. revenue brought in from the sale of condoms and other commodities).  PSI’s overhead is 6.56%, made up of 6.5% management costs and 0.06% fundraising costs, which are already factored into PSI’s $17.77 cost per year of healthy life.  For more information, view PSI's own Impact Calculator and their 2013 Progress Report.",
+      "recommendation": "The American Institute of Philanthropy has named PSI a Top Rated Charity.  PSI is also a Guidestar Exchange Silver Participant."
+    },
+    {
+      "index": 7,
+      "id": "possible",
+      "name": "Possible",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 25,
+          "action": "Cover the cost of",
+          "item": "patients to receive high-quality healthcare in rural Nepal",
+          "exclusive": false
+        }
+      ],
+      "organization": "Possible is a nonprofit healthcare company that delivers high-quality, low-cost healthcare to the world's poor. They are pioneering a new approach called &quot;durable healthcare&quot; that brings together the best of private, public, and philanthropic models. Possible works in rural Nepal through government hospitals, clinics, community health workers, and a referral network. This &quot;hub and spoke&quot; approach is the model most adept at providing equitable healthcare to the poor in places where such healthcare is hardest to find. Possible pursues long-term durability by employing and training local health care providers and non-clinical staff. Within Nepal, their staff is 98% Nepali. For more about Possible’s work, watch Chief Executive Officer Mark Arnoldy’s TEDx talk “Durable Healthcare—Redesigning a System to Work for Everyone.”",
+      "numbers": "Since they started delivering healthcare in 2008, Possible has treated over 200,000 patients, attracted over $500,000 in cash and in-kind investment from Nepal’s government through public-private partnerships, and employed 170 local Nepali team members. Possible provides free patient care at a donor price point of $25, including all overhead and operational costs.  Possible measures its quality of care with a set of 6 key performance indicators: Surgery Access, Equity, Safe Birth, Follow Up, Outpatient Use, and Family Planning. Possible’s overhead is 10.4%, made up of 8.0% administrative and 2.4% fundraising costs, but Possible funds all costs for U.S. operations separately through special donors, so 100% of general donations go directly to Nepal.  All Quarterly Impact Reports have been developed as a transparent model for accountability and replication, acting as an open home for everything Possible does, including data on clinical outcomes, community health, finances, and all organizational operational protocols.",
+      "recommendation": "Possible has received awards from Sappi Ideas That Matter and Best Hospital in Nepal. Possible CEO Mark Arnoldy was named one of Forbes’ 30 Under 30 Creating Global Change in 2014."
+      },
+    {
+      "index": 8,
+      "id": "phc",
+      "name": "Project Healthy Children",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 0.26,
+          "action": "Provide",
+          "item": "people with food-based micronutrient fortification for one year",
+          "exclusive": false
+        }
+      ],
+      "organization": "Project Healthy Children (PHC) sends experts to low-income countries in sub-Saharan Africa to hasten and increase the quality of mandatory micronutrient fortiﬁcation of staple foods such as sugar, wheat and maize ﬂour. These programs reduce adverse health outcomes, especially in children and pregnant mothers, which are due to insufﬁcient intake of iron, vitamins A and B9, iodine, and zinc.",
+      "numbers": "When top economists, including five Nobel laureates, analyzed the costs and benefits of various public health interventions, their conclusion was that fortification is one of the most cost-effective options.  Fortification costs only $0.26 per person per year, varying based on the food and the specific vitamins and minerals added. In addition to health improvements, gains in productivity and savings to a nation’s healthcare system are many times this cost. Every $1 spent directly on fortifying food results in a benefit to the country’s economy of $9. PHC’s overhead is 10.9% for administrative costs (keep in mind that the overhead ratio is not a direct measurement of charity effectiveness).  Overhead costs have already been factored into the $0.26 price point per person per year of food fortification.",
+      "recommendation": "The researchers at Giving What We Can rank Project Healthy Children as one of only four charities to earn their top recommendation, based on their outstanding cost-effectiveness."
+    },
+    {
+      "index": 9,
+      "id": "sci",
+      "name": "Schistosomiasis Control Initiative",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 0.8,
+          "action": "Treat",
+          "item": "children for one year against debilitating Neglected Tropical Diseases",
+          "exclusive": false
+        }
+      ],
+      "organization": "Worms and other parasitic and bacterial Neglected Tropical Diseases (NTDs) affect two billion people worldwide, most of whom live on less than $2 a day. Schistosomiasis kills 280,000 people a year. Another 300 million, roughly the population of the United States, suffer from severe illness, and half of those are school-aged children. NTDs are responsible for a range of serious health problems from malnutrition, to impaired cognitive development, to blindness. They can increase the morbidity and mortality of malaria, tuberculosis and HIV/AIDS, and infected children are often too sick to attend school.  Schistosomiasis Control Initiative (SCI) works with governments to create or scale up mass school-based deworming programs, which have a strong track record of success. These programs provide school children with pills that protect against the most prevalent NTDs.",
+      "numbers": "De-worming helps improve both a child’s health and education. A randomized trial in Kenya found that deworming reduced student absenteeism by 25%, increased future wage earnings by 23% and increased adult work hours by 12%.  A recent study from the Harvard School of Public Health found that students in deworming treatment areas performed better on literacy and numeracy tests as compared with other students 7-8 years after the end of their deworming treatment.  A number of pharmaceutical companies donate all of the deworming medicines, and have committed to treating 100 million children per year, more than three times the best year to date. What SCI needs to reach this record-breaking number of children is funding to cover the costs of advocacy, training, delivery and data collection.  These programs are highly cost-effective, generally at less than $0.80 per child per year. Overhead costs are 14% of SCI’s total budget (keep in mind that the overhead ratio is not a direct measurement of charity effectiveness).  All costs, including overhead costs, have been factored into the $0.80 per child per year estimate.",
+      "recommendation": "Treating NTDs is a &quot;best buy&quot; in public health according to The World Health Organization (WHO).  GiveWell, widely considered the most rigorous charity evaluator in the world, recommends only three top charities of which SCI is one.  The researchers at Giving What We Can rank SCI as one of only four charities to earn their top recommendation, based on their outstanding cost-effectiveness."
+    },
+    {
+      "index": 10,
+      "id": "seva",
+      "name": "Seva Foundation",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 15,
+          "action": "Provide",
+          "item": "people in need with eyeglasses",
+          "exclusive": true
+        },
+        {
+          "price": 50,
+          "action": "Restore eyesight to",
+          "item": "people who are blind and cannot afford surgery",
+          "exclusive": true
+        },
+        {
+          "price": 100,
+          "action": "Provide",
+          "item": "children with specialized sight-restoring pediatric surgery and follow-up care",
+          "exclusive": true
+        },
+        {
+          "price": 1500,
+          "action": "Provide",
+          "item": "days of eye camp and outreach services to those in need, each day restoring sight to 30 people",
+          "exclusive": true
+        },
+        {
+          "price": 150000,
+          "action": "Build and equip",
+          "item": "rural eye hospitals with surgical theaters and full-time opthalmologists",
+          "exclusive": true
+        }
+      ],
+      "organization": "The developing world accounts for 90% of global cases of blindness and vision impairment, where almost everyone with a cataract becomes blind and more than half of blind children will die within a few years of losing sight. Yet 80% of all visual impairments could be avoided or cured. To help bridge this gap, Seva builds sustainable eye care programs in many of the world’s most impoverished communities.",
+      "numbers": "Seva’s revolutionary designs mean that as little as $50 can fund a cataract surgery. Your donation may also help provide eyeglasses, training for surgeons and health care workers, and facilities and equipment—each a great combination of cost-effectiveness and powerful impact. Seva has received funding by passing the systematic screening methods applied by Focusing Philanthropy. In 1978, $5,000 of their first funding came from the not-yet-famous computer inventor Steve Jobs. Over 35 years, Seva has helped 3.5 million people in 20 countries see again; in 2012-13 alone, they provided eye care services to one million people. Seva’s overhead costs for FY1314 were 13.1%, and are included in their cost-per-impact calculations.",
+      "recommendation": "The World Bank has identified cataract surgery as one of the most cost-effective of all public health interventions. In 2007, The Council on Foundations presented Seva with the prestigious Critical Impact Award for \"revolutionizing\" community-based eye care."
+    },
+    {
+      "index": 11,
+      "id": "proven-impact",
+      "name": "Innovations for Poverty Action",
+      "overhead": 0,
+      "pricePoints": [
+        {
+          "price": 1,
+          "action": "Channel",
+          "item": "dollars toward implementing and scaling up programs which have been demonstrated to be impactful and cost-effective",
+          "exclusive": false
+        }
+      ],
+      "organization": "Innovations for Poverty Action (IPA) develops and tests cutting-edge solutions to some of the most intractable problems faced by the global extreme poor. IPA then works to sustainably bring the strongest evidence-backed projects to scale. The research informing this process is rigorously conducted in the real world by IPA researchers and their partners.",
+      "numbers": "Innovations for Poverty Action’s world-class evaluation process, featuring randomized control studies, backs their supported programs with strong evidence. IPA’s research team is led by some of the most recognized names in development economics, who collaborate with leading academics, implementing organizations, governments, foundations and NGOs worldwide. Since IPA’s founding in 2002, their research results have improved the lives of over 50 million people globally.",
+      "recommendation": "IPA is funded by the Acumen Fund, the Ford Foundation, the World Bank and numerous other prestigious supporters.  Its list of partners includes the Abdul Latif Jameel Poverty Action Lab at the Massachusetts Institute of Technology, the Alfred P. Sloan Foundation and the Pew Charitable Trusts."
+    }
+  ]
+}
