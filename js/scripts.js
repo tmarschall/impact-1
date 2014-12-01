@@ -132,15 +132,11 @@ $(function() {
 
     var resultText = function(){
         // Size result text
-        var number = $('.result-details .number');
-        var numberText = $('.result-details .number span');
-        var thing = $('.result-details .thing');
-        var thingText = $('.result-details .thing span');
         if ($('.mobile').css('display') !== 'block'){
-            number.css({
+            $('.result-details .number').css({
                 "text-align": "left"
             });
-            thing.css({
+            $('.result-details .thing').css({
                 "text-align":"left"
             });
             $('.result-details').each(function(){
