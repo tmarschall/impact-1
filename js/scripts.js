@@ -136,7 +136,6 @@ $(function() {
         var numberText = $('.result-details .number span');
         var thing = $('.result-details .thing');
         var thingText = $('.result-details .thing span');
-        var numberLength = numberText.html().length;
         if ($('.mobile').css('display') !== 'block'){
             number.css({
                 "text-align": "left"
@@ -144,60 +143,62 @@ $(function() {
             thing.css({
                 "text-align":"left"
             });
-            if (numberLength == 1){
-                number.css({
-                    "width": "18%",
-                });
-                thing.css({
-                    "width": "81%",
-                });
-                number.bigtext();
+            $('.result-details').each(function(){
+                if ($(this).find('.number span').html().length == 1){
+                    $(this).find('.number').css({
+                        "width": "18%",
+                    });
+                    $(this).find('.thing').css({
+                        "width": "81%",
+                    });
+                    $(this).find('.number').bigtext();
 
-                var thingSize = numberText.height()/2.3;
-                thingText.fitText(0.19, { maxFontSize: thingSize })
-                thingText.html(thingText.html().replace(/(.+?)(\s+)/,"$1<br/>"));
+                    var thingSize = $(this).find('.number span').height()/2.3;
+                    $(this).find('.thing span').fitText(0.19, { maxFontSize: thingSize })
+                    $(this).find('.thing span').html($(this).find('.thing span').html().replace(/(.+?)(\s+)/,"$1<br/>"));
 
-            } else if (numberLength == 2){
-                number.css({
-                    "width": "36%",
-                });
-                thing.css({
-                    "width": "63%",
-                });
-                number.bigtext();
+                } else if ($(this).find('.number span').html().length == 2){
+                    $(this).find('.number').css({
+                        "width": "36%",
+                    });
+                    $(this).find('.thing').css({
+                        "width": "63%",
+                    });
+                    $(this).find('.number').bigtext();
 
-                var thingSize = numberText.height()/2.3;
-                thingText.fitText(0.19, { maxFontSize: thingSize })
-                thingText.html(thingText.html().replace(/(.+?)(\s+)/,"$1<br/>"));
-            } else{
-                number.css({
-                    "width":"100%",
-                });
-                thing.css({
-                    "width":"100%",
-                    "margin-top":"0"
-                });
-                number.bigtext({
-                    maxfontsize: 120
-                });
-                thing.bigtext({
-                    maxfontsize: 42
-                });
-            };
+                    var thingSize = $(this).find('.number span').height()/2.3;
+                    $(this).find('.thing span').fitText(0.19, { maxFontSize: thingSize })
+                    $(this).find('.thing span').html($(this).find('.thing span').html().replace(/(.+?)(\s+)/,"$1<br/>"));
+                } else{
+                    $(this).find('.number').css({
+                        "width":"100%",
+                    });
+                    $(this).find('.thing').css({
+                        "width":"100%",
+                        "margin-top":"0"
+                    });
+                    $(this).find('.number').bigtext({
+                        maxfontsize: 120
+                    });
+                    $(this).find('.thing').bigtext({
+                        maxfontsize: 42
+                    });
+                };
+            });
         } else {
-             number.css({
-                    "width":"100%",
-                    "text-align": "center"
-                });
-                thing.css({
-                    "width":"100%",
-                    "margin-top":"0",
-                    "text-align":"center"
-                });
-                number.bigtext({
-                    maxfontsize: 140
-                });
-                thing.bigtext();
+            $(this).find('.number').css({
+                "width":"100%",
+                "text-align": "center"
+            });
+            $(this).find('.thing').css({
+                "width":"100%",
+                "margin-top":"0",
+                "text-align":"center"
+            });
+            $(this).find('.number').bigtext({
+                maxfontsize: 140
+            });
+            $(this).find('.thing').bigtext();
         }
 
 
