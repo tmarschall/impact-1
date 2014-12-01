@@ -115,7 +115,7 @@ $(function() {
     //------ OUTPUT -----//
 
     // Prevent FOUC on the Output
-    $('.output').hide(); // Faded in on window load (below)
+    // $('.output').hide(); // Faded in on window load (below)
 
     // Don't show result if no result
    $('.number span:empty').closest('.result').hide();
@@ -218,22 +218,22 @@ $(function() {
     };
 
 
+
    //------------  TRIGGERS  -------------//
 
-   // Do stuff that requires everything to be loaded
    $(window).load(function(){
         // Fade in output (prevent FOUC)
         $('.output').fadeIn(300);
 
-        // Hold off sizing and alignment content loaded
+        // Hold off grid scale until images loaded
+        scaleGrid();
+   });
+
+    // Reformat content on content change
+    $(document).on("contentChange", function(){
         resultText();
         buttonText();
         alignResult();
-        scaleGrid();
-
-        // Wait until everything loaded to trigger defaults
-        $('#givedirectly').trigger("change");
-        $('#amount').val('100');
    });
 
 
