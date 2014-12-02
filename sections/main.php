@@ -124,39 +124,48 @@
 
   <article class="output">
     <section class="result result-green" id="result1" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span>90</span></div>
-          <div class="thing"><span>Dollars Given</span></div>
-          <p class="info">To poor households in Kenya and Uganda to use as they wish.</p>
-        </div>
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span>90</span></div>
+        <div class="thing"><span>Dollars Given</span></div>
+        <p class="info">To poor households in Kenya and Uganda to use as they wish.</p>
+      </div>
     </section>
 
-       <section class="result result-green" id="result2" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span></span></div>
-          <div class="thing"><span></span></div>
-          <p class="info"></p>
-        </div>
+    <section class="result result-green" id="result2" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
     </section>
 
-       <section class="result result-green" id="result3" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span></span></div>
-          <div class="thing"><span></span></div>
-          <p class="info"></p>
-        </div>
+    <section class="result result-green" id="result3" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
     </section>
 
-        <section class="result result-green" id="result4" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span></span></div>
-          <div class="thing"><span></span></div>
-          <p class="info"></p>
-        </div>
+    <section class="result result-green" id="result4" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
+    </section>
+
+    <section class="result result-green" id="result5" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
     </section>
 
     <div class="output-content">
