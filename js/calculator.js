@@ -1,16 +1,17 @@
 (function(){
 	var charities = [];
 	var jqXHR = $.getJSON('/impact/json/charities.json', function( data ) {
-    	charities = data.charities;
+		charities = data.charities;
 
-    	$('#amount').val("100");
-  		var charity = getCharityById(charities, 'sci');
+		$('#amount').val("100");
+		var charity = getCharityById(charities, 'sci');
 		updateCharity(charity);
-  		updateImpacts(charity, 100);
+		updateImpacts(charity, 100);
 	})
-  	.fail(function(data, textStatus, error) {
-       	console.error("Could not load charities.json, status: " + textStatus + ", error: " + error);
+	.fail(function(data, textStatus, error) {
+		console.error("Could not load charities.json, status: " + textStatus + ", error: " + error);
   	});
+
 
 	var getCharityById = function(charities, id) {
 		for (var i = 0; i<charities.length; i++) {
@@ -26,7 +27,7 @@
 		for (i = 0; i < charity.pricePoints.length; i++) {
 			pp = charity.pricePoints[i];
 			if (usableDonation >= pp.price) {
-				impacts.push({number: Math.floor(usableDonation/pp.price), action: pp.action, item: pp.item, exclusive: pp.exclusive});
+				impacts.push({number: Math.floor(usableDonation/pp.price), action: pp.action, item: pp.item});
 			}
 		}
 		return impacts;
@@ -34,14 +35,19 @@
 
 	var updateImpacts = function(charity, donation) {
 		var impacts = calculateImpacts(charity, donation);
-		for (var j=0; j<impacts.length; j++) {
+		var n = impacts.length;
+		if (n == 0) {
+			impacts = [{number: 0, action: charity.pricePoints[0].action, item: charity.pricePoints[0].item}];
+			n = 1;
+		}
+		for (var j=0; j<n; j++) {
 			var resultId = "#result"+String(j+1);
 			$(resultId+" div.number span").html(String(impacts[j].number).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"));
 			$(resultId+" div.thing span").html(impacts[j].action);
 			$(resultId+" p.info").html(impacts[j].item);
 			$(resultId).show();
 		}
-		for (var j=impacts.length; j<4; j++) {
+		for (var j=n; j<4; j++) {
 			var resultId = "#result"+String(j+1);
 			$(resultId).hide();
 		}
@@ -57,7 +63,7 @@
 
 	$('input:radio[name=charity]').change( function() {
 		var charity = getCharityById(charities, this.id);
-		var donation = parseInt($('#amount').val()) || 0;
+		var donation = parseFloat($('#amount').val()) || 0;
 
 		updateCharity(charity);
 		updateImpacts(charity, donation);
@@ -67,19 +73,18 @@
 	$('#amount').on("change input", function() {
 		var charId = $('input:radio[name=charity]:checked')[0].id;
 		var charity = getCharityById(charities, charId);
-		var donation = parseInt($('#amount') .val()) || 0;
+		var donation = parseFloat($('#amount').val()) || 0;
 
 		updateImpacts(charity, donation);
 		$(document).trigger('contentChange');
 	});
-
 
 	$('#amount').keypress( function(e) {
 		if (e.which == 13) {
 			e.preventDefault();
 			var charId = $('input:radio[name=charity]:checked')[0].id;
 			var charity = getCharityById(charities, charId);
-			var donation = parseInt($('#amount') .val()) || 0;
+			var donation = parseFloat($('#amount').val()) || 0;
 
 			updateImpacts(charity, donation);
 			$(document).trigger('contentChange');
