@@ -27,7 +27,7 @@
 		for (i = 0; i < charity.pricePoints.length; i++) {
 			pp = charity.pricePoints[i];
 			if (usableDonation >= pp.price) {
-				impacts.push({number: Math.floor(usableDonation/pp.price), action: pp.action, item: pp.item});
+				impacts.push({number: Math.floor(usableDonation/pp.price), action: pp.action, item: pp.item, iconURL: pp.iconURL});
 			}
 		}
 		return impacts;
@@ -37,7 +37,7 @@
 		var impacts = calculateImpacts(charity, donation);
 		var n = impacts.length;
 		if (n == 0) {
-			impacts = [{number: 0, action: charity.pricePoints[0].action, item: charity.pricePoints[0].item}];
+			impacts = [{number: 0, action: charity.pricePoints[0].action, item: charity.pricePoints[0].item, iconURL: charity.pricePoints[0].iconURL}];
 			n = 1;
 		}
 		for (var j=0; j<n; j++) {
@@ -45,9 +45,10 @@
 			$(resultId+" div.number span").html(String(impacts[j].number).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"));
 			$(resultId+" div.thing span").html(impacts[j].action);
 			$(resultId+" p.info").html(impacts[j].item);
+			$(resultId+" img.icon").attr('src', impacts[j].iconURL);
 			$(resultId).show();
 		}
-		for (var j=n; j<4; j++) {
+		for (var j=n; j<5; j++) {
 			var resultId = "#result"+String(j+1);
 			$(resultId).hide();
 		}
