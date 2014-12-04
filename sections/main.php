@@ -124,46 +124,55 @@
 
   <article class="output">
     <section class="result result-green" id="result1" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span>90</span></div>
-          <div class="thing"><span>Dollars Given</span></div>
-          <p class="info">To poor households in Kenya and Uganda to use as they wish.</p>
-        </div>
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span>90</span></div>
+        <div class="thing"><span>Dollars Given</span></div>
+        <p class="info">To poor households in Kenya and Uganda to use as they wish.</p>
+      </div>
     </section>
 
-       <section class="result result-green" id="result2" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span></span></div>
-          <div class="thing"><span></span></div>
-          <p class="info"></p>
-        </div>
+    <section class="result result-green" id="result2" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
     </section>
 
-       <section class="result result-green" id="result3" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span></span></div>
-          <div class="thing"><span></span></div>
-          <p class="info"></p>
-        </div>
+    <section class="result result-green" id="result3" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
     </section>
 
-        <section class="result result-green" id="result4" >
-        <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
-        <div class="result-details">
-          <div class="number"><span></span></div>
-          <div class="thing"><span></span></div>
-          <p class="info"></p>
-        </div>
+    <section class="result result-green" id="result4" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
+    </section>
+
+    <section class="result result-green" id="result5" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
     </section>
 
     <div class="output-content">
       <a href="" id="donate">Donate to <span>GiveDirectly</span> Today!</a>
 
       <section id="organisation">
-        <h1>The Organization</h1>g
+        <h1>The Organization</h1>
         <p>GiveDirectly provides unconditional cash transfers via cell phone to some of the poorest families in Kenya. Households are selected using criteria such as proximity to public services and quality of housing. GiveDirectly then transfers $1,000 over one to two years to the chosen households using a Kenyan mobile payment system, and the recipients are free to use the money as they wish.</p>
       </section>
 

@@ -20,7 +20,8 @@
     "velocity": "~1.1.0",
     "skrollr": "~0.6.27",
     "FitText.js": "~1.2.0",
-    "bigtext": "0.1.6"
+    "bigtext": "0.1.6",
+    "jquery-validate": "~1.13.1"
   },
   "devDependencies": {}
 }

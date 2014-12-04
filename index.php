@@ -45,6 +45,9 @@
         <?php require('sections/header.php'); ?>
         <?php require('sections/main.php'); ?>
 
+        <script type="text/javascript" src="js/calculator.js"></script>
+
+
         <!-- Js Breakpoints -->
         <div class="tablet"></div>
         <div class="mobile"></div>
