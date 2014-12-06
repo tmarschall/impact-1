@@ -61,7 +61,7 @@
 			$(resultId+" img.icon").attr('src', impacts[j].iconURL);
 			$(resultId).show();
 		}
-		for (var j=n; j<5; j++) {
+		for (var j=n; j<6; j++) {
 			var resultId = "#result"+String(j+1);
 			$(resultId).hide();
 		}

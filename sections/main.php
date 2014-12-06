@@ -168,6 +168,15 @@
       </div>
     </section>
 
+    <section class="result result-green" id="result6" >
+      <img src="/impact/img/dummy-icon.png" alt="" class="icon" />
+      <div class="result-details">
+        <div class="number"><span></span></div>
+        <div class="thing"><span></span></div>
+        <p class="info"></p>
+      </div>
+    </section>
+
     <div class="output-content">
       <a href="" id="donate">Donate to <span>GiveDirectly</span> Today!</a>
 
