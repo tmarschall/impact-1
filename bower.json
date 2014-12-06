@@ -18,7 +18,6 @@
     "html5shiv": "~3.7.2",
     "respond": "~1.4.2",
     "velocity": "~1.1.0",
-    "skrollr": "~0.6.27",
     "FitText.js": "~1.2.0",
     "bigtext": "0.1.6",
     "jquery-validate": "~1.13.1"
