@@ -1,5 +1,3 @@
 node_modules
-*.css
 js/libs
 *.log
-js/vendor.min.js
