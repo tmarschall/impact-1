@@ -13,7 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "*",
+    "jquery": "1.9.1",
     "hoverintent": "*",
     "html5shiv": "~3.7.2",
     "respond": "~1.4.2",
